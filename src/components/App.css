@@ -1,0 +1,21 @@
+body {
+  background-color: #1c1921;
+}
+
+hr {
+  margin: 1em 0px;
+  width: 73%;
+  height: 1.2px;
+  background-color:#666;
+}
+
+.wrapper {
+  font-size: 15px;
+}
+
+._hackers {
+  color: #c5d4ac;
+}
+._data {
+  color: #a29df8;
+}
