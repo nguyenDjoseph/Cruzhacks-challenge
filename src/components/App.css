@@ -2,20 +2,71 @@ body {
   background-color: #1c1921;
 }
 
-hr {
+.hackers-br-ln {
   margin: 1em 0px;
   width: 73%;
-  height: 1.2px;
-  background-color:#666;
+  height: 0.2px;
+  background-color:#c5d4ac;
+}
+.data-br-ln {
+  margin: 0.6em 0px;
+  width: 43%;
+  height: 0.2px;
+  background-color:#a29df8;
+}
+.nav-br-ln {
+  margin: 0.6em 0px;
+  width: 38%;
+  height: 0.2px;
+  background-color: #DC9b70;
+}
+.nav-bar {
+  padding: 0px;
+  padding-top: 3em;
+}
+.nav-item {
+    padding-right: 2em;
+    display: inline;
+}
+a {
+  color: #DC9b70;
+  text-decoration: none;
 }
 
-.wrapper {
-  font-size: 15px;
-}
-
-._hackers {
+._hackers, ._hackers table {
+  font-size: 12px;
   color: #c5d4ac;
 }
 ._data {
+  font-size: 20px;
+}
+
+.table td, .table th {
+  padding: 0.7em 0em;
+}
+
+._data {
   color: #a29df8;
+}
+
+.col {
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*
+Pagination related CSS
+*/
+.react-bs-table td { outline: none !important; }
+.react-bs-container-body tr {
+  border-top-style: hidden !important;
+}
+.react-bs-container-header tr {
+  border-top-style: hidden !important;
+  border-bottom-style: hidden !important;
 }

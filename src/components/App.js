@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Hackers from './Hackers';
 import Data from './Data';
+import Nav from './Nav';
 import './App.css';
 
 class App extends Component {
@@ -24,11 +25,13 @@ class App extends Component {
     return (
       <div className="wrapper">
         <div className="container">
-          <div className="row row justify-content-around">
-            <div className="col-8">
+        <Nav/>
+        <hr className="nav-br-ln"></hr>
+          <div className="row">
+            <div className="col">
               <Hackers data={this.state.data}/>
             </div>
-            <div className="col-4">
+            <div className="col">
               <Data data={this.state.data}/>
             </div>
           </div>

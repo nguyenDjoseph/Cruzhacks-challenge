@@ -28,7 +28,7 @@ export default class Hackers extends Component {
         return(
             <div className="_hackers">
                 <h1>Hackers</h1>
-                <hr></hr>               
+                <hr className="hackers-br-ln"></hr>               
                 <table className="table table-borderless _hackers">
                     {hackerHeader}
                     {hackerBody}

@@ -14,7 +14,7 @@ export default class Data extends Component {
         return(
             <div className="_data">
                 <h1>Data</h1>
-                <hr></hr>
+                <hr className="data-br-ln"></hr>
                 <p>Checked In: {checkedIn} </p>
                 <p>Percent: {(checkedIn/(this.props.data.length)*100)}%</p>
                 <p>Dietary Restrictions: {dietaryRestrictions}</p>
