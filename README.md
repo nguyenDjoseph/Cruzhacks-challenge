@@ -1,1 +1,10 @@
-Cruzhack 2/25/19 
+# Cruzhacks Frontend Engineering Team Coding Challenge
+
+Bootstrapped using create-react-app
+
+## Installation
+To start the web app:
+```
+npm start
+```
+
